@@ -1,0 +1,147 @@
+.audiojs .play {
+	background: url("../images/player-graphics.gif") -2px -1px no-repeat;
+}
+
+.audiojs .loading {
+	background: url("../images/player-graphics.gif") -2px -31px no-repeat;
+}
+
+.audiojs .error {
+	background: url("../images/player-graphics.gif") -2px -61px no-repeat;
+}
+
+.audiojs .pause {
+	background: url("../images/player-graphics.gif") -2px -91px no-repeat;
+}
+
+.playing .play,.playing .loading,.playing .error {
+	display: none;
+}
+
+.playing .pause {
+	display: block;
+}
+
+.loading .play,.loading .pause,.loading .error {
+	display: none;
+}
+
+.loading .loading {
+	display: block;
+}
+
+.error .time,.error .play,.error .pause,.error .scrubber,.error .loading
+	{
+	display: none;
+}
+
+.error .error {
+	display: block;
+}
+
+.error .play-pause p {
+	cursor: auto;
+}
+
+.error .error-message {
+	display: block;
+}
+
+html,body {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	color: #666;
+	font-family: sans-serif;
+	line-height: 1.4;
+}
+
+h1 {
+	color: #060;
+	font-size: 1.2em;
+	padding: 5px 2px 5px;
+	margin: 0px;
+	font-style: normal;
+	font-weight: normal;
+}
+
+h1 em {
+	font-style: normal;
+	color: #999;
+}
+
+a {
+	color: #888;
+	text-decoration: none;
+	outline: none;
+}
+
+#wrapper {
+	width: 100%;
+	margin: 0px;
+	border-radius: 5px;
+	
+}
+
+#wrapper ol li:hover {
+	background-color: #BCD2EE;
+	cursor: pointer;
+}
+
+ol {
+	padding: 0px;
+	margin: 5px 0px 0px;
+	list-style: none;
+	color: #ccc;
+	width: 100%;
+	border-top: 1px solid #ccc;
+	font-size: 0.9em;
+}
+
+ol li {
+	position: relative;
+	margin: 0px;
+	padding: 9px 2px 2px;
+	border-bottom: 1px solid #ccc;
+	cursor: pointer;
+}
+
+ol li a {
+	display: block;
+}
+
+li.playing {
+	color: #aaa;
+	text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.3);
+}
+
+li.playing a {
+	color: #000;
+}
+
+li.playing:before {
+	content: '♬';
+	width: 14px;
+	height: 14px;
+	padding: 3px;
+	line-height: 14px;
+	margin: 0px;
+	position: absolute;
+	left: -24px;
+	top: 9px;
+	color: #000;
+	font-size: 13px;
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-device-width: 480px) {
+	#wrapper {
+		position: relative;
+		left: -3%;
+	}
+	#shortcuts {
+		display: none;
+	}
+}
