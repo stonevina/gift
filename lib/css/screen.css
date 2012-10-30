@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 @import url(http://fonts.googleapis.com/css?family=Courgette);
+
 /*
 KISSY CSS Reset
 理念：1. reset 的目的不是清除浏览器的默认样式，这仅是部分工作。清除和重置是紧密不可分的。
@@ -8,8 +9,7 @@ KISSY CSS Reset
      3. reset 期望提供一套普适通用的基础样式。但没有银弹，推荐根据具体需求，裁剪和修改后再使用。
 特色：1. 适应中文；2. 基于最新主流浏览器。
 维护：玉伯<lifesinger@gmail.com>, 正淳<ragecarrier@gmail.com>
-*/
-/** 清除内外边距 **/
+*/ /** 清除内外边距 **/
 body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td
 	{
 	margin: 0;
@@ -18,7 +18,7 @@ body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legen
 
 /** 设置默认字体 **/
 body,button,input,select,textarea {
-	font: 12px/1.5 tahoma, arial, \5b8b\4f53, sans-serif;
+	font: 12px/ 1.5 tahoma, arial, \5b8b\4f53, sans-serif;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -39,8 +39,7 @@ small {
 	font-size: 12px;
 }
 
-/* 小于 12px 的中文很难阅读，让 small 正常化 */
-/** 重置列表元素 **/
+/* 小于 12px 的中文很难阅读，让 small 正常化 */ /** 重置列表元素 **/
 ul,ol {
 	list-style: none;
 }
@@ -78,9 +77,7 @@ button,input,select,textarea {
 	font-size: 100%;
 }
 
-/* 使得表单元素在 ie 下能继承字体大小 */
-/* 注：optgroup 无法扶正 */
-/** 重置表格元素 **/
+/* 使得表单元素在 ie 下能继承字体大小 */ /* 注：optgroup 无法扶正 */ /** 重置表格元素 **/
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -96,8 +93,9 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,su
 
 /**添加背景**/
 html {
-	background: #f7f5f5 url('../../images/common/timeline-container.jpg') repeat; 
-	background-attachment:fixed;
+	background: #f7f5f5 url('../../images/common/timeline-container.jpg')
+		repeat;
+	background-attachment: fixed;
 }
 
 mark {
@@ -496,7 +494,6 @@ mark {
 .article-wrap .content {
 	background: #efefef;
 	/**background: rgba(255, 255, 255, 0.9);**/
-	
 	padding: 10px 15px;
 	border-radius: 2px;
 }
@@ -554,24 +551,24 @@ mark {
 	font-family: fantasy;
 }
 
-.article-intro {
-	/**background: #21212B;**/
+.article-intro { /**background: #21212B;**/
+	
 }
 
 .article-intro h2 {
 	color: #f50;
 }
 
-.article-basic {
-	/**background: #4E6092;**/
+.article-basic { /**background: #4E6092;**/
+	
 }
 
-.article-async {
-	/**background: #394B61;**/
+.article-async { /**background: #394B61;**/
+	
 }
 
-.article-dive-into {
-	/**background: #1E2733;**/
+.article-dive-into { /**background: #1E2733;**/
+	
 }
 
 .article-deploy {
@@ -591,7 +588,7 @@ mark {
 }
 
 /**首行缩进2em**/
-.article-letter p{
+.article-letter p {
 	text-indent: 2em;
 }
 
@@ -599,8 +596,11 @@ mark {
 .article-letter {
 	color: #A8A8A8;
 	font-size: 12px;
-	font-family: 微软雅黑; 
+	font-family: 微软雅黑;
 	line-height: 20px;
+	background: url('../images/letter_body.jpg') no-repeat bottom;
+	background-color: #CCC;
+	color: #1C86EE;
 }
 
 /**注释部分**/
@@ -634,7 +634,7 @@ mark {
 
 a#scroll-to-top {
 	background-image: url(../images/rocket_up.png);
-	background-repeat:no-repeat;
+	background-repeat: no-repeat;
 	width: 149px;
 	height: 250px;
 	position: fixed;
@@ -697,4 +697,30 @@ a#scroll-to-top {
 	border-bottom: 1px dashed #ccc;
 	margin-bottom: 10px;
 	font-family: 宋体;
+}
+
+.wd100 {
+	width: 100%;
+}
+
+.letter_title {
+	background: url('../images/letter_title.gif') no-repeat 50% 50%;
+	height: auto;
+	width: 100%;
+}
+
+.textCenter {
+	text-align: center;
+}
+
+.pt40 {
+	padding-top: 40px;
+}
+
+.textCenter .pt0 {
+	padding-top: 0px;
+}
+
+.textCenter .ft_size25 {
+	font-size: 25px;
 }
