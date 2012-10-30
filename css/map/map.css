@@ -1,0 +1,16 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.map {
+	width: 520px;
+}
+
+.map div {
+	border: 1px solid #C7C7C7;width: 100%;
+}
+
+#container {
+	height: 340px;
+}
