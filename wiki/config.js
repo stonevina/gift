@@ -71,7 +71,7 @@
                 'http://ued.ctrip.com/blog/wp-content/webkitcss/index.html', 
                 'http://demo.doyoe.com/', 'http://wiki.zx.taobao.com/index.php', 'http://www.html5china.com/manual/html5/html5_ref_standardattributes.html',
                 'http://help.adobe.com/en_US/FlashPlatform/reference/actionscript/3/index.html',
-                'http://jsbooks.revolunet.com/', 'http://runjs.cn/',
+                'http://jsbooks.revolunet.com/', 'http://runjs.cn/', 'http://jsbin.com/',
                 'http://alloyteam.github.io/gopng/',
                 'http://tinypng.org/', 'http://javawind.net/tools/native2ascii.jsp',
                 'http://nodeschool.io/', 'http://blog.teamtreehouse.com/',
@@ -80,7 +80,7 @@
                 'http://it-ebooks.info/', 'http://codepen.io/', 'http://codevisually.com/',
                 'http://css3lib.alloyteam.com/', 'http://html5demos.com/'],
                 text : ['mdeditor', 'Java', 'JavaScript', 'CSS', 'Webkitcss', 'FElab', 'TB', 'HTML',
-                'ActionScript', 'FreeBook', 'Runjs', 'gopng', 'tinypng', 'native2ascii', 'nodeschool', 'teamtreehouse',
+                'ActionScript', 'FreeBook', 'Runjs', 'jsbin', 'gopng', 'tinypng', 'native2ascii', 'nodeschool', 'teamtreehouse',
                 'tutorials', 'api', 'FESource', 'it-ebooks', 'codepen', 'codevisually', 'alloyteam', 'html5demos']
             }
         },{
