@@ -30,10 +30,11 @@
                     'http://jsonenglish.com/projects/flex/', 'http://fineuploader.com/', 'http://www.ztree.me/v3/main.php#_zTreeInfo',
                     'http://www.highcharts.com/', 'http://www.uploadify.com/',
                     'http://raphaeljs.com/', 'http://www.css88.com/EasyTools/javascript/jQueryPlugin/imgAreaSelect/index.html',
-                    'http://www.flotcharts.org/','http://www.patrick-wied.at/static/heatmapjs/'],
+                    'http://www.flotcharts.org/','http://www.patrick-wied.at/static/heatmapjs/',
+                    'http://fabien-d.github.io/alertify.js/'],
                 text: ['table', 'jpage', 'editor', 'datePicker',
                  'Handsontable', 'paperjs','grid','flex', 'fileUploader', 'zTree', 
-                 'highcharts', 'uploadify', 'raphaeljs', 'imgareaselect', 'flotcharts','heatmap']
+                 'highcharts', 'uploadify', 'raphaeljs', 'imgareaselect', 'flotcharts','heatmap', 'alertify']
             }
         },{
             title : '工具类',
@@ -72,6 +73,7 @@
                 'http://demo.doyoe.com/', 'http://wiki.zx.taobao.com/index.php', 'http://www.html5china.com/manual/html5/html5_ref_standardattributes.html',
                 'http://help.adobe.com/en_US/FlashPlatform/reference/actionscript/3/index.html',
                 'http://jsbooks.revolunet.com/', 'http://runjs.cn/', 'http://jsbin.com/',
+                'http://jsfiddle.net/',
                 'http://alloyteam.github.io/gopng/',
                 'http://tinypng.org/', 'http://javawind.net/tools/native2ascii.jsp',
                 'http://nodeschool.io/', 'http://blog.teamtreehouse.com/',
@@ -80,7 +82,7 @@
                 'http://it-ebooks.info/', 'http://codepen.io/', 'http://codevisually.com/',
                 'http://css3lib.alloyteam.com/', 'http://html5demos.com/'],
                 text : ['mdeditor', 'Java', 'JavaScript', 'CSS', 'Webkitcss', 'FElab', 'TB', 'HTML',
-                'ActionScript', 'FreeBook', 'Runjs', 'jsbin', 'gopng', 'tinypng', 'native2ascii', 'nodeschool', 'teamtreehouse',
+                'ActionScript', 'FreeBook', 'Runjs', 'jsbin', 'jsfiddle', 'gopng', 'tinypng', 'native2ascii', 'nodeschool', 'teamtreehouse',
                 'tutorials', 'api', 'FESource', 'it-ebooks', 'codepen', 'codevisually', 'alloyteam', 'html5demos']
             }
         },{
@@ -99,10 +101,10 @@
                 'http://zouyesheng.com/angular.html',
                 'http://github.com/darcyclarke/Front-end-Developer-Interview-Questions/tree/master/Chinese',
                 'http://github.com/JacksonTian/fks',
-                'http://www.ituring.com.cn/article/48461'],
+                'http://www.ituring.com.cn/article/48461', 'http://liam0205.me/attachment/Python/The_Python_Tutorial_zh-cn.pdf'],
                 text : ['Android', 'Java', 'Oracle', 'MongoDB(上)', 'MongoDB(下)', 'HTML5',
                 'JavaScript','$2Job', 'JavaScript-Garden', 'JavaScript-Quiz', 'Angular', 
-                'FE 面试', 'FE 体系', 'JS-Base']
+                'FE 面试', 'FE 体系', 'JS-Base', 'Python']
             }
         }]
     };
