@@ -82,11 +82,11 @@
                 'http://overapi.com/', 'http://f2e.im/static/pages/nav/index.html',
                 'http://it-ebooks.info/', 'http://codepen.io/', 'http://codevisually.com/',
                 'http://css3lib.alloyteam.com/', 'http://html5demos.com/',
-                'http://devdocs.io/'],
+                'http://devdocs.io/', 'http://tool.css-js.com/'],
                 text : ['mdeditor', 'Java', 'JavaScript', 'CSS', 'Webkitcss', 'FElab', 'TB', 'HTML',
                 'ActionScript', 'FreeBook', 'Runjs', 'jsbin', 'jsfiddle', 'gopng', 'tinypng', 'native2ascii', 'nodeschool', 'teamtreehouse',
                 'tutorials', 'api', 'FESource', 'it-ebooks', 'codepen', 'codevisually', 'alloyteam', 
-                'html5demos', 'devDoc']
+                'html5demos', 'devDoc', 'jsmin']
             }
         },{
             title : '干货分享',
