@@ -31,11 +31,12 @@
                     'http://www.highcharts.com/', 'http://www.uploadify.com/',
                     'http://raphaeljs.com/', 'http://www.css88.com/EasyTools/javascript/jQueryPlugin/imgAreaSelect/index.html',
                     'http://www.flotcharts.org/','http://www.patrick-wied.at/static/heatmapjs/',
-                    'http://fabien-d.github.io/alertify.js/', 'http://plugins.gravitysign.com/rollbar/'],
+                    'http://fabien-d.github.io/alertify.js/', 'http://plugins.gravitysign.com/rollbar/',
+                    'http://www.csswang.com/resource/4353.html'],
                 text: ['table', 'jpage', 'editor', 'datePicker',
                  'Handsontable', 'paperjs','grid','flex', 'fileUploader', 'zTree', 
                  'highcharts', 'uploadify', 'raphaeljs', 'imgareaselect', 'flotcharts','heatmap', 
-                 'alertify', 'rollbar']
+                 'alertify', 'rollbar', 'pageGuide']
             }
         },{
             title : '工具类',
