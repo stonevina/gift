@@ -32,11 +32,12 @@
                     'http://raphaeljs.com/', 'http://www.css88.com/EasyTools/javascript/jQueryPlugin/imgAreaSelect/index.html',
                     'http://www.flotcharts.org/','http://www.patrick-wied.at/static/heatmapjs/',
                     'http://fabien-d.github.io/alertify.js/', 'http://plugins.gravitysign.com/rollbar/',
-                    'http://www.csswang.com/resource/4353.html'],
+                    'http://www.csswang.com/resource/4353.html',
+                    'http://www.steamdev.com/zclip/'],
                 text: ['table', 'jpage', 'editor', 'datePicker',
                  'Handsontable', 'paperjs','grid','flex', 'fileUploader', 'zTree', 
                  'highcharts', 'uploadify', 'raphaeljs', 'imgareaselect', 'flotcharts','heatmap', 
-                 'alertify', 'rollbar', 'pageGuide']
+                 'alertify', 'rollbar', 'pageGuide','zclip']
             }
         },{
             title : '工具类',
