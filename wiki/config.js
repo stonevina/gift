@@ -106,10 +106,11 @@
                 'http://zouyesheng.com/angular.html',
                 'http://github.com/darcyclarke/Front-end-Developer-Interview-Questions/tree/master/Chinese',
                 'http://github.com/JacksonTian/fks',
-                'http://www.ituring.com.cn/article/48461', 'http://liam0205.me/attachment/Python/The_Python_Tutorial_zh-cn.pdf'],
+                'http://www.ituring.com.cn/article/48461', 'http://liam0205.me/attachment/Python/The_Python_Tutorial_zh-cn.pdf',
+                'http://www.cnblogs.com/Darren_code/archive/2011/12/31/property.html'],
                 text : ['Android', 'Java', 'Oracle', 'MongoDB(上)', 'MongoDB(下)', 'HTML5',
                 'JavaScript','$2Job', 'JavaScript-Garden', 'JavaScript-Quiz', 'Angular', 
-                'FE 面试', 'FE 体系', 'JS-Base', 'Python']
+                'FE 面试', 'FE 体系', 'JS-Base', 'Python', 'profile']
             }
         }]
     };
