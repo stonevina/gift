@@ -113,6 +113,12 @@
                 'JavaScript','$2Job', 'JavaScript-Garden', 'JavaScript-Quiz', 'Angular', 
                 'FE 面试', 'FE 体系', 'JS-Base', 'Python', 'profile']
             }
+        },{
+            title : '名博站点',
+            source : {
+                href : ['http://ued.alimama.com/'],
+                text : ['一淘UX']
+            }
         }]
     };
 
