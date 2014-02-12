@@ -86,11 +86,11 @@
                 'http://css3lib.alloyteam.com/', 'http://html5demos.com/',
                 'http://devdocs.io/', 'http://tool.css-js.com/','http://jinlong.github.io/blog/2013/08/29/devtoolsecrets/',
                 'http://hotoo.googlecode.com/svn/trunk/labs/css/css-fonts.html',
-                'https://stackedit.io/'],
+                'https://stackedit.io/', 'http://css3generator.com/'],
                 text : ['mdeditor', 'Java', 'JavaScript', 'CSS', 'Webkitcss', 'FElab', 'TB', 'HTML',
                 'ActionScript', 'FreeBook', 'Runjs', 'jsbin', 'jsfiddle', 'gopng', 'tinypng', 'native2ascii', 'nodeschool', 'teamtreehouse',
                 'tutorials', 'api', 'FESource', 'it-ebooks', 'codepen', 'codevisually', 'alloyteam', 
-                'html5demos', 'devDoc', 'jsmin','devTool','css-fonts','stackedit']
+                'html5demos', 'devDoc', 'jsmin','devTool','css-fonts','stackedit', 'css3generator']
             }
         },{
             title : '干货分享',
